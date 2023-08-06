@@ -456,8 +456,23 @@ ul>li {
     nav {
         display: none;
     }
-    .hamburger-menu{
+    .bitch{
+        display: none;
+    }
+    .nav-explore-link{
         display: block;
+        font-size: 16em;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #316499;
+        color: white;
+        border-radius: 10px;
+    }
+    .hamburger-menu {
+        display: block;
+        font-size: 16em;
+        margin-left: 50px;
+
     }
 
     .hero-section {
@@ -467,7 +482,7 @@ ul>li {
         position: relative;
         margin-bottom: 50px;
         background-repeat: no-repeat;
-        background-blend-mode: color-dodge;
+        background-blend-mode: exclusion;
         background-image: url('./images/hero_img.png');
         /* border: 1px solid rgb(90, 71, 71); */
     }
