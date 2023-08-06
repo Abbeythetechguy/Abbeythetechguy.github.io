@@ -445,7 +445,7 @@ ul>li {
     margin-right: 10px;
 }
 
-@media screen and (min-width:650px) and (max-width: 905px) {
+@media screen and (min-width:605px) and (max-width: 905px) {
     html{
         font-size: 1px;
     }
@@ -686,7 +686,7 @@ ul>li {
         font-size: 16px;
     }
 }
-@media screen and (max-width:505px) {
+@media screen and (max-width:605px) {
     html{
         font-size: 1px;
     }
