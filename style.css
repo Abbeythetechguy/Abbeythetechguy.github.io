@@ -20,12 +20,19 @@ header {
     top: 0;
     background-color: white;
 }
+.nav-explore-link{
+    display: none;
+}
+.stubborn-nav{
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu{
+    display: none;
+}
 main{
     max-width: 1440px;
     margin: 0 auto;
-}
-.hamburger-menu {
-    display: none;
 }
 
 .logo-container {
@@ -449,10 +456,8 @@ ul>li {
     nav {
         display: none;
     }
-
-    .hamburger-menu {
+    .hamburger-menu{
         display: block;
-
     }
 
     .hero-section {
@@ -677,12 +682,24 @@ ul>li {
     nav {
         display: none;
     }
-
+    .bitch{
+        display: none;
+    }
+    .nav-explore-link{
+        display: block;
+        font-size: 16em;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #316499;
+        color: white;
+        border-radius: 10px;
+    }
     .hamburger-menu {
         display: block;
+        font-size: 16em;
+        margin-left: 10px;
 
     }
-
     .hero-section {
         display: block;
         padding: 10px;
@@ -692,7 +709,7 @@ ul>li {
         margin-bottom: 50px;
         background-size: cover;
         background-repeat: no-repeat;
-        background-blend-mode: color-dodge;
+        background-blend-mode: exclusion;
         background-image: url('./images/hero_img.png');
         /* border: 1px solid rgb(90, 71, 71); */
     }
